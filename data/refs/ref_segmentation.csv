@@ -1,0 +1,11 @@
+Type de seg,Indiv/Groupes,Segment,Market Segment,Code Segment
+PMS1,Indiv,Indiv Direct,Loisirs,ALPHA
+PMS1,Indiv,OTA,Loisirs,BETA
+PMS1,Indiv,Corporate,Affaires,GAMMA
+PMS1,Groupe,Séminaire,Corporate,DELTA
+PMS1,Groupe,Agence,Loisirs,EPSILON
+PMS1,Indiv,Direct,Loisirs,ZETA
+PMS1,Indiv,Affaires,Corporate,ETA
+PMS1,Indiv,Fidélité,Loisirs,THETA
+PMS2,Indiv,Parc à thème,Loisirs,PARC
+PMS2,Groupe,Resort,Loisirs,RESORT

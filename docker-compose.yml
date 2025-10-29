@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: etl_pass
+      POSTGRES_DB: etl_db
+    ports:
+      - "5433:5432" #port 5433 sur ma machine redirige vers le port 5432 à l’intérieur du conteneur.
+    volumes:
+      - pgdata:/var/lib/postgresql/data #garde les fichiers de la base même si on recrées le conteneur.
+      - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql:ro
+volumes:
+  pgdata:
