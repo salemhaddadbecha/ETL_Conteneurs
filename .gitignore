@@ -1,0 +1,11 @@
+# Environnements virtuels
+.venv/
+venv/
+
+# Fichiers temporaires
+__pycache__/
+*.pyc
+*.pyo
+
+# Fichiers IDE
+.idea/
