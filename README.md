@@ -72,8 +72,8 @@ Le fichier `docker-compose.yml` définit :
 ### 1. Cloner le projet et créer un environnement virtuel Python
 
 ```bash
-git clone https://github.com/username/ETL&Conteneurs.git
-cd ETL&Conteneurs
+https://github.com/salemhaddadbecha/ETL_Conteneurs.git
+cd ETL_Conteneurs
 python -m venv venv
 venv\Scripts\activate       # Sous Windows
 # ou source venv/bin/activate sous Linux/macOS
